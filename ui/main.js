@@ -1,6 +1,6 @@
 console.log('Loaded!');
 
 alert('hi');
-var element = document.getElementById('main');
+var rt = document.getElementById('main');
 
-element.InnerHTML = "new value";
+rt.innerHTML = "new value";
